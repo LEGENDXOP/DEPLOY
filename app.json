@@ -35,7 +35,12 @@
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
       "value": "",
-      "required": true
+      "required": false
+    },
+    "MONGO_URL": {
+      "description": "put here your mongodb url",
+      "value": "",
+      "required": false
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
@@ -74,21 +79,6 @@
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot without @",
       "value": ""
-    },
-    "ONLINE_ALERT": {
-      "description": "Set it True for being informed by the Assistant Bot that UltraX is now working. Preferred and By-Default is True",
-      "value": "True",
-      "required": true
-    },
-    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
-      "description": "Set The Amount Of Buttons Displayed In Help Command",
-      "value": "10",
-      "required": true
-    },
-    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
-      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
-      "value": "2",
-      "required": true
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
